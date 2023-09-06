@@ -93,6 +93,16 @@ The application uses a local MongoDB instance by default. You can modify the `mo
 - [Fiber](https://gofiber.io/): Web framework for Go.
 - [MongoDB](https://www.mongodb.com/): NoSQL database.
 
+## Usage
+
+You can use tools like [Postman](https://www.postman.com/) or [cURL](https://curl.se/) to interact with the API endpoints.
+
+Example cURL command to add an employee:
+
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe", "salary": 50000, "age": 30}' http://localhost:3000/employee
+```
+
 ## License
 
 This project is licensed under the MIT License.
